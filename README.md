@@ -1,9 +1,9 @@
-# 🚀 Malvin-Session-Generator
+# 🚀 LITE-PAIR
 
 ## 📊 Visitor Counter
 
 <p align="center">
-  <img src="https://profile-counter.glitch.me/XdKing2/count.svg" alt="visitor counter"/>
+  <img src="https://files.catbox.moe/kwjlg6.jpg" alt="visitor counter"/>
 </p>
 
 ---
@@ -15,7 +15,7 @@
 Generate session IDs for WhatsApp bots using [`@whiskeysockets/baileys`](https://github.com/whiskeysockets/baileys), with secure **MEGA** cloud storage and a fast web QR login.
 
 > ⚠️ This is the **same code** used on my live site:  
-> 🔗 [Session Generator Website](https://new-session-2ag9.onrender.com/)  
+
 > 💬 Don't ask for more — just **fork**, **star**, **edit** ,and **deploy**!
 
 ---
@@ -53,12 +53,12 @@ Generate session IDs for WhatsApp bots using [`@whiskeysockets/baileys`](https:/
 ## 👑 Owner
 
 <p align="center">
-  <a href="https://github.com/XdKing2">
-    <img src="https://github.com/XdKing2.png" width="200" height="200" alt="Malvin King"/>
+  <a href="https://github.com/Gamermamun197">
+    <img src="https://files.catbox.moe/kwjlg6.jpg" width="200" height="200" alt="ᴍᴀᴍᴜɴ ᴀᴅᴍɪɴ"/>
   </a>
 </p>
 
-📬 [`Contact on WhatsApp`](https://wa.me/263780166288)
+📬 [`Contact on WhatsApp`](https://wa.me/8801786269298)
 
 ---
 
