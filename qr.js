@@ -20,7 +20,7 @@ function removeFile(FilePath) {
 router.get('/', async (req, res) => {
     const id = makeid();
  //   let num = req.query.number;
-    async function MAMUN_MD_PAIR_CODE() {
+    async function LITE_MD_PAIR_CODE() {
         const {
             state,
             saveCreds
@@ -56,7 +56,7 @@ var randomItem = selectRandomItem(items);
                     let data = fs.readFileSync(__dirname + `/temp/${id}/creds.json`);
                     let rf = __dirname + `/temp/${id}/creds.json`;
                     function generateRandomText() {
-                        const prefix = "3EB";
+                        const prefix = "lite";
                         const characters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789";
                         let randomText = prefix;
                         for (let i = prefix.length; i < 22; i++) {
@@ -70,11 +70,11 @@ var randomItem = selectRandomItem(items);
                         const { upload } = require('./mega');
                         const mega_url = await upload(fs.createReadStream(rf), `${sock.user.id}.json`);
                         const string_session = mega_url.replace('https://mega.nz/file/', '');
-                        let md = "malvin~" + string_session;
+                        let md = "lite~" + string_session;
                         let code = await sock.sendMessage(sock.user.id, { text: md });
-                        let desc = `*Hey there, MALVIN-XD User!* 👋🏻
+                        let desc = `*Hey there, LITE-MD User!* 👋🏻
 
-Thanks for using *MAMUN-MD* — your session has been successfully created!
+Thanks for using *LITE-MD* — your session has been successfully created!
 
 🔐 *Session ID:* Sent above  
 ⚠️ *Keep it safe!* Do NOT share this ID with anyone.
@@ -83,11 +83,11 @@ Thanks for using *MAMUN-MD* — your session has been successfully created!
 
 *✅ Stay Updated:*  
 Join our official WhatsApp Channel:  
-https://whatsapp.com/channel/0029VbA6MSYJUM2TVOzCSb2A
+https://whatsapp.com/channel/0029Vb7EOQb7dmegUo8LTh2q
 
 *💻 Source Code:*  
 Fork & explore the project on GitHub:  
-https://github.com/Gamermamun197/Mamun-X-Bot
+https://github.com/Gamermamun197/LITE-MD
 
 ——————
 
@@ -97,9 +97,9 @@ Stay cool and hack smart. ✌🏻`;
 text: desc,
 contextInfo: {
 externalAdReply: {
-title: "ᴍᴀʟᴠɪɴ-xᴅ 𝕮𝖔𝖓𝖓𝖊𝖈𝖙𝖊𝖉",
-thumbnailUrl: "https://files.catbox.moe/bqs70b.jpg",
-sourceUrl: "https://whatsapp.com/channel/0029VbA6MSYJUM2TVOzCSb2A",
+title: "LITE-MD 𝕮𝖔𝖓𝖓𝖊𝖈𝖙𝖊𝖉",
+thumbnailUrl: "https://files.catbox.moe/kwjlg6.jpg",
+sourceUrl: "https://whatsapp.com/channel/0029Vb7EOQb7dmegUo8LTh2q",
 mediaType: 1,
 renderLargerThumbnail: true
 }  
@@ -108,7 +108,7 @@ renderLargerThumbnail: true
 {quoted:code })
                     } catch (e) {
                             let ddd = sock.sendMessage(sock.user.id, { text: e });
-                            let desc = `*Hey there, MALVIN-XD User!* 👋🏻
+                            let desc = `*Hey there, LITE-XD User!* 👋🏻
 
 Thanks for using *ᴍᴀᴍᴜɴ ᴀᴅᴍɪɴ* — your session has been successfully created!
 
@@ -119,11 +119,11 @@ Thanks for using *ᴍᴀᴍᴜɴ ᴀᴅᴍɪɴ* — your session has been succes
 
 *✅ Stay Updated:*  
 Join our official WhatsApp Channel:  
-https://whatsapp.com/channel/0029VbA6MSYJUM2TVOzCSb2A
+https://whatsapp.com/channel/0029Vb7EOQb7dmegUo8LTh2q
 
 *💻 Source Code:*  
 Fork & explore the project on GitHub:  
-https://github.com/Gamermamun197/Mamun-X-Bot
+https://github.com/Gamermamun197/LITE-MD
 
 > *© Powered by Malvin King*
 Stay cool and hack smart. ✌🏻*`;
@@ -131,9 +131,9 @@ Stay cool and hack smart. ✌🏻*`;
 text: desc,
 contextInfo: {
 externalAdReply: {
-title: "ᴍᴀʟᴠɪɴ-xᴅ 𝕮𝖔𝖓𝖓𝖊𝖈𝖙𝖊𝖉 ✅  ",
-thumbnailUrl: "https://files.catbox.moe/bqs70b.jpg",
-sourceUrl: "https://whatsapp.com/channel/0029VbA6MSYJUM2TVOzCSb2A",
+title: "LITE MD 𝕮𝖔𝖓𝖓𝖊𝖈𝖙𝖊𝖉 ✅  ",
+thumbnailUrl: "https://files.catbox.moe/kwjlg6.jpg",
+sourceUrl: "https://whatsapp.com/channel/0029Vb7EOQb7dmegUo8LTh2q",
 mediaType: 2,
 renderLargerThumbnail: true,
 showAdAttribution: true
@@ -150,7 +150,7 @@ showAdAttribution: true
                     process.exit();
                 } else if (connection === "close" && lastDisconnect && lastDisconnect.error && lastDisconnect.error.output.statusCode != 401) {
                     await delay(10);
-                    MALVIN_XD_PAIR_CODE();
+                    LITE_MD_PAIR_CODE();
                 }
             });
         } catch (err) {
@@ -161,7 +161,7 @@ showAdAttribution: true
             }
         }
     }
-    await MALVIN_XD_PAIR_CODE();
+    await LITE_MD_PAIR_CODE();
 });
 setInterval(() => {
     console.log("☘️ 𝗥𝗲𝘀𝘁𝗮𝗿𝘁𝗶𝗻𝗴 𝗽𝗿𝗼𝗰𝗲𝘀𝘀...");
