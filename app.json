@@ -2,7 +2,7 @@
     "name": "pair session",
     "description": "Web Session Generator",
     "logo": "https://files.catbox.moe/kwjlg6.jpg",
-    "repository": "https://github.com/XdKing2/malvin-pair",
+    "repository": "https://github.com/Gamermamun197/LITE-PAIR",
     "keywords": ["ᴍᴀᴍᴜɴ ᴀᴅᴍɪɴ","Gamermamun197"],
     "success_url": "/", 
     "buildpacks": [{ "url": "https://github.com/heroku/heroku-buildpack-nodejs#latest" } ],
