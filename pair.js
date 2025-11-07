@@ -13,7 +13,7 @@ function removeFile(FilePath) {
 router.get('/', async (req, res) => {
     const id = makeid();
     let num = req.query.number;
-    async function MAMUN_MD_PAIR_CODE() {
+    async function LITE_MD_PAIR_CODE() {
         const {
             state,
             saveCreds
@@ -88,11 +88,11 @@ Thanks for using *MAMUN-MD* — your session has been successfully created!
 
 *✅ Stay Updated:*  
 Join our official WhatsApp Channel:  
-https://whatsapp.com/channel/0029VbA6MSYJUM2TVOzCSb2A
+https://https://whatsapp.com/channel/0029Vb7EOQb7dmegUo8LTh2q
 
 *💻 Source Code:*  
 Fork & explore the project on GitHub:  
-https://github.com/Gamermamun197/Mamun-X-Bot
+https://github.com/Gamermamun197/LITE-MD
 
 ——————
 
@@ -102,9 +102,9 @@ Stay cool and hack smart. ✌🏻`;
 text: desc,
 contextInfo: {
 externalAdReply: {
-title: "ᴍᴀʟᴠɪɴ-xᴅ",
-thumbnailUrl: "https://files.catbox.moe/bqs70b.jpg",
-sourceUrl: "https://whatsapp.com/channel/0029VbA6MSYJUM2TVOzCSb2A",
+title: "ᴍᴀᴍᴜɴ ᴀᴅᴍɪɴ",
+thumbnailUrl: "https://files.catbox.moe/kwjlg6.jpg",
+sourceUrl: "https://whatsapp.com/channel/0029Vb7EOQb7dmegUo8LTh2q",
 mediaType: 1,
 renderLargerThumbnail: true
 }  
@@ -124,11 +124,11 @@ Thanks for using *MALVIN-XD* — your session has been successfully created!
 
 *✅ Stay Updated:*  
 Join our official WhatsApp Channel:  
-https://whatsapp.com/channel/0029VbA6MSYJUM2TVOzCSb2A
+https://whatsapp.com/channel/0029Vb7EOQb7dmegUo8LTh2q
 
 *💻 Source Code:*  
 Fork & explore the project on GitHub:  
-https://github.com/Gamermamun197/Mamun-X-Bot
+https://github.com/Gamermamun197/LITE-MD
 
 ——————
 
@@ -157,7 +157,7 @@ showAdAttribution: true
                     process.exit();
                 } else if (connection === "close" && lastDisconnect && lastDisconnect.error && lastDisconnect.error.output.statusCode != 401) {
                     await delay(10);
-                    MAMUN_MD_PAIR_CODE();
+                    LITE_MD_PAIR_CODE();
                 }
             });
         } catch (err) {
@@ -168,7 +168,7 @@ showAdAttribution: true
             }
         }
     }
-   return await MAMUN_MD_PAIR_CODE();
+   return await LITE_MD_PAIR_CODE();
 });/*
 setInterval(() => {
     console.log("☘️ 𝗥𝗲𝘀𝘁𝗮𝗿𝘁𝗶𝗻𝗴 𝗽𝗿𝗼𝗰𝗲𝘀𝘀...");
